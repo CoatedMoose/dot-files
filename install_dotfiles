@@ -1,0 +1,21 @@
+#/bin/bash
+
+DIR=$(pwd)
+
+# Install bash dotfiles
+cd ~
+ln -s ${DIR}/.bashrc ~/.bashrc
+ln -s ${DIR}/.bash_aliases ~/.bash_aliases
+ln -s ${DIR}/.bash_logout ~/.bash_logout
+
+# Install python rc file
+ln -s ${DIR}/.pythonrc.py ~/.pythonrc.py
+# Create file for python history
+touch ~/.python_history
+
+# Install vimrc 
+ln -s ${DIR}/.vimrc ~/.vimrc
+
+# Install git
+ln -s ${DIR}/.gitconfig ~/.gitconfig
+ln -s ${DIR}/.gitignore_global ~/.gitignore_global

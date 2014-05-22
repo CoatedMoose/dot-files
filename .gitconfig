@@ -4,3 +4,8 @@
     graph = log --graph --full-history --date-order --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"
 [merge]
     tool = vimdiff
+[core]
+	excludesfile = /home/andrew/.gitignore_global
+[user]
+	name = Andrew Crichton
+	email = andrew.g.crichton@gmail.com
