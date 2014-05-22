@@ -106,11 +106,12 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-# Set default editor
 export EDITOR=vim
 
-# Set python startup file
-export PYTHONSTARTUP=~/.pythonrc.py
+export ANDROID_HOME=/home/andrew/android-sdk-linux
+export ANDROID_NDK_HOME=/home/andrew/android-ndk-r9d
+export ECLIPSE_HOME=/opt/eclipse
 
-# Set lolcommits to use lolspeak
-export LOLCOMMITS_TRANZLATE=1
+export PATH=$PATH:~/bin:~/android-sdk-linux/tools:~/android-sdk-linux/platform-tools
+
+export PYTHONSTARTUP=~/.pythonrc.py
