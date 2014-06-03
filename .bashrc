@@ -109,6 +109,7 @@ fi
 export EDITOR=vim
 
 export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
+export M2_HOME=/usr/share/maven3
 export ANDROID_HOME=/home/andrew/android-sdk-linux
 export ANDROID_NDK_HOME=/home/andrew/android-ndk-r9d
 export ECLIPSE_HOME=/opt/eclipse
