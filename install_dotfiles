@@ -19,3 +19,6 @@ ln -s ${DIR}/.vimrc ~/.vimrc
 # Install git
 ln -s ${DIR}/.gitconfig ~/.gitconfig
 ln -s ${DIR}/.gitignore_global ~/.gitignore_global
+
+# Install mouse key bindings
+ln -s ${DIR}/.xbindkeysrc ~/.xbindkeysrc
