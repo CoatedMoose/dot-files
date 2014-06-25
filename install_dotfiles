@@ -15,6 +15,8 @@ touch ~/.python_history
 
 # Install vimrc 
 ln -s ${DIR}/.vimrc ~/.vimrc
+# ycm c defaults
+ln -s ${DIR}/.ycm_extra_conf.py ~/.ycm_extra_conf
 
 # Install git
 ln -s ${DIR}/.gitconfig ~/.gitconfig
