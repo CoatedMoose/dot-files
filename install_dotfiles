@@ -4,23 +4,23 @@ DIR=$(pwd)
 
 # Install bash dotfiles
 cd ~
-ln -s ${DIR}/.bashrc ~/.bashrc
-ln -s ${DIR}/.bash_aliases ~/.bash_aliases
-ln -s ${DIR}/.bash_logout ~/.bash_logout
+ln -s ${DIR}/bashrc ~/.bashrc
+ln -s ${DIR}/bash_aliases ~/.bash_aliases
+ln -s ${DIR}/bash_logout ~/.bash_logout
 
 # Install python rc file
-ln -s ${DIR}/.pythonrc.py ~/.pythonrc.py
+ln -s ${DIR}/pythonrc.py ~/.pythonrc.py
 # Create file for python history
 touch ~/.python_history
 
 # Install vimrc 
-ln -s ${DIR}/.vimrc ~/.vimrc
+ln -s ${DIR}/vimrc ~/.vimrc
 # ycm c defaults
-ln -s ${DIR}/.ycm_extra_conf.py ~/.ycm_extra_conf
+ln -s ${DIR}/ycm_extra_conf.py ~/.ycm_extra_conf
 
 # Install git
-ln -s ${DIR}/.gitconfig ~/.gitconfig
-ln -s ${DIR}/.gitignore_global ~/.gitignore_global
+ln -s ${DIR}/gitconfig ~/.gitconfig
+ln -s ${DIR}/gitignore_global ~/.gitignore_global
 
 # Install mouse key bindings
-ln -s ${DIR}/.xbindkeysrc ~/.xbindkeysrc
+ln -s ${DIR}/xbindkeysrc ~/.xbindkeysrc
