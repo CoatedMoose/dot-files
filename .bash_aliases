@@ -1,7 +1,12 @@
+#!/bin/bash
 alias chdir="cd"
 alias ack='ack-grep'
 alias gitk='gitk --all --date-order'
 alias mvn='mvn3'
+# find any git repo's with uncommited changes
+alias find-unsynced='find . -type d -name .git -printf "%h\n" -execdir git status -s \;'
+# fetch all git repos
+alias git-fetch-all='find . -type d -name .git -printf "%h\n" -execdir git fetch \;'
 
 # Android debug over IP helpers
 alias adbip='adb shell ip -f inet addr show wlan0 | sed -En "s/.*inet ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+).*/\1/p"'
