@@ -117,3 +117,6 @@ export ECLIPSE_HOME=/opt/eclipse
 export PATH=$PATH:~/bin:~/android-sdk-linux/tools:~/android-sdk-linux/platform-tools
 
 export PYTHONSTARTUP=~/.pythonrc.py
+
+export LOLCOMMITS_STEALTH=true
+export LOLCOMMITS_FORK=true
