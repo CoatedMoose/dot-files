@@ -3,8 +3,12 @@ alias chdir="cd"
 alias ack='ack-grep'
 alias gitk='gitk --all --date-order'
 alias mvn='mvn3'
+alias logcat='logcat-color'
+alias dtree='tree -d'
+
 # find any git repo's with uncommited changes
 alias find-unsynced='find . -type d -name .git -printf "%h\n" -execdir git status -s \;'
+
 # fetch all git repos
 alias git-fetch-all='find . -type d -name .git -printf "%h\n" -execdir git fetch \;'
 
