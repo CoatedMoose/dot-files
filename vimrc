@@ -11,6 +11,7 @@ if ! ( v:version < 703 || (v:version == 703 && !has('patch584')) )
     Plugin 'Valloric/YouCompleteMe'
     " YCM and eclim play nice
     let g:EclimCompletionMethod='omnifunc'
+    let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
 endif
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
