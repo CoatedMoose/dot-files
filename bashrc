@@ -108,14 +108,14 @@ fi
 
 export EDITOR=vim
 
-export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export M2_HOME=/usr/share/maven3
 export ANDROID_HOME=/home/andrew/android-sdk-linux
-export ANDROID_NDK_HOME=/home/andrew/android-ndk-r9d
-export ANDROID_NDK_ROOT=/home/andrew/android-ndk-r9d
+export ANDROID_NDK_HOME=/home/andrew/android-ndk-r10e
+export ANDROID_NDK_ROOT=/home/andrew/android-ndk-r10e
 export ECLIPSE_HOME=/opt/eclipse
 
-export PATH=$PATH:~/bin:~/android-sdk-linux/tools:~/android-sdk-linux/platform-tools:~/android-ndk-r9d
+export PATH=$PATH:~/bin:~/android-sdk-linux/tools:~/android-sdk-linux/platform-tools:~/android-ndk-r10e
 
 export PYTHONSTARTUP=~/.pythonrc.py
 
