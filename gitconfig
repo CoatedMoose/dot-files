@@ -10,3 +10,5 @@
 [user]
 	name = Andrew Crichton
 	email = andrew.g.crichton@gmail.com
+[push]
+	default = simple
