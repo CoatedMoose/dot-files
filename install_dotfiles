@@ -24,3 +24,6 @@ ln -s ${DIR}/gitignore_global ~/.gitignore_global
 
 # Install mouse key bindings
 ln -s ${DIR}/xbindkeysrc ~/.xbindkeysrc
+
+# Install X dpi settings
+ln -s ${DIR}/Xresources ~/.Xresources
