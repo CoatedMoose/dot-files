@@ -131,3 +131,8 @@ export PYTHONSTARTUP=~/.pythonrc.py
 
 export LOLCOMMITS_STEALTH=true
 export LOLCOMMITS_FORK=true
+
+export NVM_DIR="/home/andrewbabbly/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+. /usr/local/bin/virtualenvwrapper.sh

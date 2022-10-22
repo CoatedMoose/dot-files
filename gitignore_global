@@ -4,3 +4,12 @@
 
 # python bytecode files
 *.pyc
+
+# direnv files
+.envrc
+
+# lsyncd files
+.lsyncd.*
+
+# Mac hidden files
+.DS_Store

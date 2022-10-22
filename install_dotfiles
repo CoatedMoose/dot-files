@@ -8,6 +8,9 @@ ln -s ${DIR}/bashrc ~/.bashrc
 ln -s ${DIR}/bash_aliases ~/.bash_aliases
 ln -s ${DIR}/bash_logout ~/.bash_logout
 
+# Install zsh dotfiles
+ln -s ${dir}/zshrc ~/.zshrc
+
 # Install python rc file
 ln -s ${DIR}/pythonrc.py ~/.pythonrc.py
 # Create file for python history

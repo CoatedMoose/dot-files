@@ -1,7 +1,6 @@
 #!/bin/bash
 alias chdir="cd"
 alias gitk='gitk --all --date-order'
-alias mvn='mvn3'
 alias logcat='logcat-color'
 alias dtree='tree -d'
 alias histgrep='history | grep'

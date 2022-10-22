@@ -12,3 +12,11 @@
 	email = andrew.g.crichton@gmail.com
 [push]
 	default = simple
+[pager]
+	branch = false
+[init]
+	defaultBranch = main
+	templateDir = /home/andrew/.git-templateDir
+[pull]
+	ff = only
+	rebase = true
