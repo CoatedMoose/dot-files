@@ -9,7 +9,7 @@ ln -s ${DIR}/bash_aliases ~/.bash_aliases
 ln -s ${DIR}/bash_logout ~/.bash_logout
 
 # Install zsh dotfiles
-ln -s ${dir}/zshrc ~/.zshrc
+ln -s ${DIR}/zshrc ~/.zshrc
 
 # Install python rc file
 ln -s ${DIR}/pythonrc.py ~/.pythonrc.py

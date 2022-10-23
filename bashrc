@@ -119,7 +119,7 @@ fi
 export EDITOR=vim
 
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-export M2_HOME=/usr/share/maven3
+export M2_HOME=/usr/share/maven
 export ANDROID_HOME=/home/andrew/android-sdk-linux
 export ANDROID_NDK_HOME=/home/andrew/android-ndk-r10e
 export ANDROID_NDK_ROOT=/home/andrew/android-ndk-r10e
@@ -132,7 +132,7 @@ export PYTHONSTARTUP=~/.pythonrc.py
 export LOLCOMMITS_STEALTH=true
 export LOLCOMMITS_FORK=true
 
-export NVM_DIR="/home/andrewbabbly/.nvm"
+export NVM_DIR="/home/andrew/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 . /usr/local/bin/virtualenvwrapper.sh
