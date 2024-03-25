@@ -3,6 +3,7 @@
 [alias]
     graph = log --graph --full-history --date-order --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"
     st = status
+    com = "!f(){ git fetch && git checkout -b $1 origin/$(git remote show origin | sed -n '/HEAD branch/s/.*: //p'); };f"
 [merge]
     tool = vimdiff
 [core]
