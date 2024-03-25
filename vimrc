@@ -15,7 +15,6 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-speeddating'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kentaroi/cocoa.vim'
-Plugin 'psf/black'
 "Plugin 'chrisbra/csv.vim'
 Plugin 'sheerun/vim-polyglot'
 
