@@ -7,7 +7,7 @@
 [merge]
     tool = vimdiff
 [core]
-	excludesfile = /home/andrew/.gitignore_global
+	excludesfile = /Users/andrew/.gitignore_global
 [user]
 	name = Andrew Crichton
 	email = andrew.g.crichton@gmail.com
@@ -17,7 +17,7 @@
 	branch = false
 [init]
 	defaultBranch = main
-	templateDir = /home/andrew/.git-templateDir
+	templateDir = /Users/andrew/.git-template
 [pull]
 	ff = only
 	rebase = true
