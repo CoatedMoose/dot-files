@@ -1,5 +1,5 @@
 layout_anaconda() {
-  local ACTIVATE="${HOME}/miniforge3/bin/activate"
+  local ACTIVATE="$(conda info --base)/bin/activate"
 
   if [ -n "$1" ]; then
     # Explicit environment name from layout command.

@@ -5,12 +5,12 @@
     st = status
     com = "!f(){ git fetch && git checkout -b $1 origin/$(git remote show origin | sed -n '/HEAD branch/s/.*: //p'); };f"
 [merge]
-    tool = vimdiff
+    tool = nvimdiff
 [core]
 	excludesfile = /Users/andrew/.gitignore_global
+	editor = nvim
 [user]
-	name = Andrew Crichton
-	email = andrew.g.crichton@gmail.com
+	useConfigOnly = true
 [push]
 	default = simple
 [pager]
